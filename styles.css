@@ -1,13 +1,40 @@
+.page {
+  width: 800px;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 20px auto;
+  background-color: #aed9e0;
+}
+
 h1 {
   text-align: center;
-  background-color: beige;
+  /* text-decoration: underline; */
+  font-style: italic;
+  color: #5e6472;
+  padding: 40px;
+  /* background-color: #ffa69e; */
+  font-size: 60px;
 }
 
 .recipe-links {
   text-align: center;
+  font-size: 30px;
 }
 
 img {
   width: 500px;
   height: auto;
+  margin: auto;
+  display: block;
+  padding: 5px 0 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #5e6472;
+  font-style: italic;
+}
+
+body {
+  background-color: #5e6472;
 }

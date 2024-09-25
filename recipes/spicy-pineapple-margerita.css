@@ -3,7 +3,8 @@
   height: auto;
   display: block;
   margin: 20px auto;
-  background-color: #bdf7c0;
+  background-color: #f2e8cf;
+  border-radius: 50px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 22px;
 }
@@ -18,7 +19,7 @@ h1 {
 .spicy-marg-pic {
   display: block;
   margin: 20px auto;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 h2 {
@@ -49,4 +50,9 @@ p {
   justify-content: center;
   padding: 0 20px 20px 0;
   list-style-position: outside;
+}
+
+body {
+  background-color: #6a994e;
+  color: #6a994e;
 }
